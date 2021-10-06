@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href = "mycourses.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="acc.css">
+    <title>J Comp</title>
+</head>
+<body id="my-courses">
+    <header>
+        <div class="header">
+            <div class="heading">
+                <a href="homepage.html">
+                    <h1>jCom<span style="color:rgb(255, 0, 76)">p.</span></h1>
+                </a>
+                
+            </div>
+            
+            <div class="acct-details">
+                <ul class="acct-list">
+                    
+                    <li class="acct-item">
+                        <a class="social-link" href="#">
+                            <i class="fas fa-bell"></i>
+                        </a>
+                    </li>
+
+                    <li class="acct-item">
+                        <a class="social-link active" href="accountinfo.html">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </li>
+
+                    <li class="acct-item">
+                        <a class="social-link" href="login.html">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </a>
+                    </li>
+                    
+                    <!-- <li class="acct-item">
+                        <a class="social-link" href="#">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        
+        <div class="navbar">
+            <nav>
+            <a href="homepage.html" class ="home" id="navlinks"> Home </a> |
+            <a href= "aboutpage.html" class ="about" id="navlinks"> About Us </a>|
+            <a href="mycourses.html" class = "my-courses"  id="navlinks"> My Courses </a> |
+            <a href="myteams.html" class="my-teams" id="navlinks"> My Teams </a>
+            </nav>
+        </div>
+        
+    </header>
+
+    <div style="text-align:center">
+        <form action="action_page.php" style="border:12px solid #ccc">
+            <div class="container">
+                <h2>Modify/View User Details</h2>
+                <hr>
+                <label for="uname"><b>User Name</b></label>
+                <input type="text" placeholder="Raj Anand" name="uname" required>
+                <br>
+    
+                <label for="Reg"><b>Registration Number</b></label>
+                <input type="text" placeholder="19BCEXXXX" name="Reg" required>
+                <br>
+    
+    
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="RAJ.2019@VITSTUDENT.AC.IN" name="email" required>
+                <br>
+    
+                <label for="psw"><b>Phone Number</b></label>
+                <input type="text" placeholder="1234567890" name="psw" required>
+                <br>
+                </hr>
+    
+    
+                <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="modifybtn">Modify Details</button>
+                </div>
+            </div>
+    
+        </form>
+    </div>
+
+    
+
+    
+</body>
+</html>

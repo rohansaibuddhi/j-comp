@@ -1,0 +1,165 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:rgba(0,0,255,0.2);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+    margin:0;
+    color:white;
+}
+
+header{
+    width:100%;
+}
+h1{
+    color: white;
+    padding: 1rem;
+    font-size:2.75rem;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar {
+    background-color:rgba(255, 0, 76, 0.918);
+    padding:1em;
+    overflow:hidden;
+}
+
+.header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0,0,0,0.8)
+}
+
+.header div{
+    flex-basis:30%;
+}
+
+#navlinks {
+        padding: 5% 7%;
+        /* justify-content:center ; */
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        color:white;
+        font-size: large;
+}
+
+
+.acct-list{
+    list-style: none;
+    display:flex;
+    justify-content:right;
+    margin:0;
+    
+}
+
+.acct-item{
+    padding:1.5rem;
+    padding-top: 2rem;
+}
+
+.social-link{
+    color:white;
+    font-size: 1.5rem;
+}
+
+
+/* content */
+.intro{
+    display:flex;
+    /* font-size:2rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img.png'); 
+    */
+    
+    padding: 17%; 
+    background-image: url('work.webp'); 
+    background-size: cover;
+    flex-basis: 100%;;
+
+}
+.left{
+    flex-basis: 50%;
+    font-size: x-large;
+    margin-left:-20%;
+    padding-left: 1em;
+    background-color:rgba(0,0,0,0.8);
+    
+}
+
+#start{
+    font-size:2rem;
+}
+.getstarted{
+    color:rgb(255, 0, 76);
+    font-size:2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+.getstarted:hover{
+    color: white;
+}
+
+.intro head{
+    font-family: monospace;    
+}
+.intro p{
+    font-style: italic;
+    color: whitesmoke;
+    font-weight: bold;
+}
+#start{
+    font-style: italic;
+    color: white;
+    font-weight: bold
+}
+
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    color: black;
+    justify-content: space-between;
+    
+}
+.p1 {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+    align-items:center;
+    background-color:#ccccff;
+    color: white;
+}
+
+.p1 div{
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.body{
+    box-shadow:  0 0 30px rgba(0, 0, 0, 0.3);
+    margin: 2rem 1rem;
+    padding:2rem ;
+    background-color: rgba(0,0,0,0.8);
+    flex-basis: 60%;
+}
+
+.head{
+    color:black;
+}
+.features{
+    text-align: right;
+}
+
+
+nav .active{
+    box-shadow:  0 0 30px rgba(0, 0, 0, 0.3);
+    color: rgb(26, 21, 21) !important;
+}

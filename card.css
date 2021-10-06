@@ -1,0 +1,29 @@
+.card{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:2em;
+    
+}
+
+.course-card{
+    border:2px solid black;
+    flex-basis: 30%;
+    margin: 1em;
+    text-align: center;
+    color:white;
+    background-color: rgb(48,44,52);
+    max-width: 350px;
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 2%;
+}
+
+.course-image{
+    font-size:5rem;
+    padding:3rem;
+}
+
+a{
+    text-decoration: none;
+}

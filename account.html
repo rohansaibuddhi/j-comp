@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mycourses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="acc.css">
+
+    <title>Account </title>
+
+</head>
+
+
+<body>
+    <header>
+        <div class="header">
+            <div class="heading">
+                <a href="login.html">
+                    <h1>jCom<span style="color:rgb(255, 0, 76)">p.</span></h1>
+                </a>
+
+            </div>
+
+            <div class="acct-details">
+                <ul class="acct-list">
+                    <li class="acct-item">
+                        <a class="social-link" href="#">
+                            <i class="fas fa-bell"></i>
+                        </a>
+                    </li>
+                    <li class="acct-item">
+                        <a class="social-link" href="accountinfo.html">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </li>
+                    <li class="acct-item">
+                        <a class="social-link" href="login.html">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <nav>
+                <a href="homepage.html" id="navlinks"> Home </a> |
+                <a href="aboutpage.html" id="navlinks"> About Us </a>|
+                <a href="mycourses.html" id="navlinks"> My Courses </a> |
+                <a href="myteams.html" id="navlinks"> My Teams </a>
+            </nav>
+        </div>
+    </header>
+
+
+
+</body>
+<div style="text-align:center">
+    <form action="login.html" style="border:12px solid #ccc">
+        <div class="container">
+            <h2>Create an account</h2>
+            <p>Please fill the required details.</p>
+            <hr>
+            <label for="uname"><b>User Name</b></label>
+            <input type="text" placeholder="Enter User Name" name="uname" required>
+            <br>
+
+            <label for="Reg"><b>Registration Number</b></label>
+            <input type="text" placeholder="Enter your registration number" name="Reg" required>
+            <br>
+
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <br>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br>
+
+            <label for="psw-repeat"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+            <br>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+            </hr>
+
+
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        </div>
+
+    </form>
+</div>
+
+</html>

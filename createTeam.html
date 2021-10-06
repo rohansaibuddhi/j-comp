@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="createTeam.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+
+    <title>Account </title>
+
+</head>
+
+
+<body>
+    <header>
+        <div class="header">
+            <div class="heading">
+                <a href="login.html">
+                    <h1>jCom<span style="color:rgb(255, 0, 76)">p.</span></h1>
+                </a>
+
+            </div>
+
+            <div class="acct-details">
+                <ul class="acct-list">
+                    <li class="acct-item">
+                        <a class="social-link" href="accountinfo.html">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </li>
+                    <li class="acct-item">
+                        <a class="social-link" href="#">
+                            <i class="fas fa-bell"></i>
+                        </a>
+                    </li>
+                    <li class="acct-item">
+                        <a class="social-link" href="login.html">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <nav>
+                <a href="homepage.html" id="navlinks"> Home </a> |
+                <a href="aboutpage.html" id="navlinks"> About Us </a>|
+                <a href="mycourses.html" id="navlinks"> My Courses </a> |
+                <a href="courseteams.html" id="navlinks"> My Teams </a>
+            </nav>
+        </div>
+    </header>
+
+
+
+</body>
+<div style="text-align:center">
+    <form action="action_page.php" style="border:12px solid #ccc">
+        <div class="container">
+            <h2>Create an account</h2>
+            <p>Please fill the required details.</p>
+            <hr>
+            <label for="tname"><b>Team Name</b></label>
+            <input type="text" placeholder="Enter team Name" name="uname" required>
+            <br>
+
+            <label for="leader"><b>Leader Name</b></label>
+            <input type="text" placeholder="Enter your Leader number" name="Reg" required>
+            <br>
+
+
+            <label for="email"><b>Contact Number</b></label>
+            <input type="text" placeholder="Enter contact number" name="contact number" required>
+            <br>
+
+            <label for="members"><b>Select Team Members</b></label>
+            <select name="members" id="members" multiple>
+                <option value="Rohan Buddhi Sai">Rohan Buddhi Sai</option>
+                <option value="Tanvi Saxena">Tanvi Saxena</option>
+                <option value="Kshitiej verma">Kshitiej verma</option>
+                <option value="Tony Stark">Tony Stark</option>
+            </select>
+            <br>
+
+            <label for="title"><b>Project Title</b></label>
+            <input type="text" placeholder="Enter title" name="title" required>
+            <br>
+
+            <label for="title"><b>Project Description</b></label>
+            <input type="text" placeholder="Description" name="psw-repeat" required>
+            <br>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+            </hr>
+
+
+            <div class="clearfix">
+                <button type="submit" class="invite">Send Invites</button>
+            </div>
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        </div>
+
+    </form>
+</div>
+</html>
